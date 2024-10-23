@@ -53,3 +53,12 @@ prenne tout l'espace horizontal de la page */
     display: flex;
     width: 100vw;
 }
+
+/* la classe controls a ete cible pour en faire un display flex afin de
+centrer et espacer également les icones */
+
+.controls{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
