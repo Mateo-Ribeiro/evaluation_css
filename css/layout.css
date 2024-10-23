@@ -62,3 +62,27 @@ centrer et espacer également les icones */
     justify-content: space-evenly;
     align-items: center;
 }
+
+/* un couleur grise a ete donne a la nav et au bas de l'app */ 
+
+.app-nav{
+    background-color: #313131;
+}
+
+.app-bottom{
+    background-color: #313131;    
+}
+
+/* un degrade a ete ajoute sur le reste de l'application
+ (album-> tracklist-> le fond) */
+.app-content .album{
+    background: linear-gradient(#000,#313131);
+}
+
+.app-content .tracklist{
+    background: linear-gradient(#000,#313131);
+}
+
+.app-content{
+    background: linear-gradient(#000,#313131);
+}
