@@ -69,6 +69,10 @@ centrer et espacer également les icones */
     background-color: #313131;
 }
 
+.current{
+    background-color: #313131;
+}
+
 .app-bottom{
     background-color: #313131;    
 }
