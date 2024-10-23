@@ -1,6 +1,12 @@
+/* la div enfant directe de main a ete cible pour en faire un display flex
+afin de placer la nav sur la gauche */
+
 main>div{
     display: flex;
 }
+
+/* la nav a ete cible pour en faire un display flex afin de centrer et 
+espacer également les icones */
 
 .app-nav{
     display: flex;
@@ -9,23 +15,39 @@ main>div{
     align-items: center;
 }
 
+/* la classe album a ete cible pour en faire un display flex afin place le
+texte a cote de l'image */
+
 .album{
     display: flex;
 }
+
+/* la classe app-content a ete cible afin de faire en sorte que l'element
+prenne tout l'espace horizontal de la page */
 
 .app-content{
     width:100vw;
     height: 60vh;
 }
 
+/* la classe track-item a ete cible pour en faire un display flex afin de
+mettre les titres de chaque musique sur la gauche et leurs durees
+respectives sur la droite */
+
 .track-item{
     display: flex;
     justify-content: space-between;
 }
 
+/* la classe app-bottom a ete cible pour en faire un display flex afin de
+mettre la musique actuel et les controles sur la meme ligne */
+
 .app-bottom{
     display: flex;
 }
+
+/* la classe current a ete cible afin de faire en sorte que l'element
+prenne tout l'espace horizontal de la page */
 
 .current{
     display: flex;
