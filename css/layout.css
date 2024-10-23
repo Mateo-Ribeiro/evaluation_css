@@ -27,7 +27,7 @@ prenne tout l'espace horizontal de la page */
 
 .app-content{
     width:100vw;
-    height: 60vh;
+    height: 80vh;
 }
 
 /* la classe track-item a ete cible pour en faire un display flex afin de
@@ -44,6 +44,7 @@ mettre la musique actuel et les controles sur la meme ligne */
 
 .app-bottom{
     display: flex;
+    height: 20vh;
 }
 
 /* la classe current a ete cible afin de faire en sorte que l'element
