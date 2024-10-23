@@ -69,12 +69,16 @@ centrer et espacer également les icones */
     background-color: #313131;
 }
 
-.current{
+.app-bottom .current{
+    background-color: #313131;
+}
+
+.app-bottom .controls{
     background-color: #313131;
 }
 
 .app-bottom{
-    background-color: #313131;    
+    background-color: #313131;  
 }
 
 /* un degrade a ete ajoute sur le reste de l'application
